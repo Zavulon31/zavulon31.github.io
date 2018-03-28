@@ -1,0 +1,260 @@
+/*Fonts family*/
+@font-face {
+  font-family: 'Open_Sans';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Bold.woff2') format('woff2'), url('../fonts/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold.ttf') format('truetype'), url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open_Sans_Reg';
+  src: url('../fonts/OpenSans.eot');
+  src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans.woff2') format('woff2'), url('../fonts/OpenSans.woff') format('woff'), url('../fonts/OpenSans.ttf') format('truetype'), url('../fonts/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open_Sans_Bold';
+  src: url('../fonts/OpenSans-Extrabold.eot');
+  src: url('../fonts/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Extrabold.woff2') format('woff2'), url('../fonts/OpenSans-Extrabold.woff') format('woff'), url('../fonts/OpenSans-Extrabold.ttf') format('truetype'), url('../fonts/OpenSans-Extrabold.svg#OpenSans-Extrabold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto_Slab';
+  src: url('../RobotoSlab-Bold.eot');
+  src: url('../RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'), url('../RobotoSlab-Bold.woff2') format('woff2'), url('../RobotoSlab-Bold.woff') format('woff'), url('../RobotoSlab-Bold.ttf') format('truetype'), url('../RobotoSlab-Bold.svg#RobotoSlab-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'semibold';
+  src: url('../fonts/OpenSans-Semibold.woff2') format('woff2'), url('../fonts/OpenSans-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+/*Settings*/
+html {
+  font-size: 10px;
+}
+/*Colors*/
+/*Main*/
+.main {
+  background: url(../images/bg.jpg) no-repeat center;
+  height: 819px;
+}
+.main .msu {
+  margin-top: 3rem;
+}
+.main-header-up {
+  display: inline-block;
+  margin-top: 150px;
+  color: #ffffff;
+  font-size: 2.7rem;
+  font-family: 'Open_Sans_Reg', sans-serif;
+}
+.main-header {
+  display: inline-block;
+  margin-top: 67px;
+  font-family: 'Open_Sans_Bold', sans-serif;
+  font-size: 6.254rem;
+  color: #ffffff;
+}
+.main-block-text {
+  margin-top: 10rem;
+}
+.main-block-text .wrap {
+  min-width: 42rem;
+  height: 7rem;
+  text-align: center;
+  position: relative;
+}
+.main-block-text .wrap .mso {
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  top: 25px;
+  left: 0;
+}
+.main-block-text .wrap .mst {
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  right: 0rem;
+  bottom: 0;
+}
+.main-subtitle {
+  display: inline-block;
+  font-family: 'semibold', sans-serif;
+  font-size: 2.723rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.main-nomber {
+  display: inline-block;
+  font-family: 'semibold', sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-left: -9.5rem;
+  margin-right: -2rem;
+  font-size: 8rem;
+  font-weight: 600;
+  color: #f52358;
+}
+.main-btn {
+  display: inline-block;
+  position: relative;
+  margin-top: 55px ;
+  font-family: 'Roboto_Slab', sans-serif;
+  font-size: 2.223rem;
+  background-color: #f52358;
+  width: 495px;
+  height: 65px;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.main-btn:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #f52358;
+  border: 1px solid #f52358;
+}
+.main-btn .shadow-bnt {
+  display: block;
+  position: absolute;
+  margin-top: 3.5%;
+}
+/* 2 экран*/
+.description {
+  position: relative;
+}
+.description .procent {
+  display: inline-block;
+  margin-top: 1.7rem;
+  margin-left: -3rem;
+  font-family: 'Open_Sans', sans-serif;
+  font-size: 8.5rem;
+  color: #f52358;
+}
+.description .text-subtitle-down {
+  display: inline-block;
+  margin: 5rem 0 10rem 0;
+}
+.description .text-subtitle {
+  font-family: 'Open_Sans', sans-serif;
+  color: #73707d;
+  font-size: 1.6rem;
+}
+.description .blue-text {
+  font-family: 'Open_Sans', sans-serif;
+  color: #00bde0;
+}
+.description-text {
+  display: inline-block;
+  margin-bottom: 5.5rem;
+  font-family: 'Open_Sans_Reg', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #73707d;
+}
+.description-bg {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.description-block {
+  margin-top: 9rem;
+}
+.description-block-header {
+  display: inline-block;
+  margin-top: 2rem;
+  font-family: 'Open_Sans', sans-serif;
+  line-height: 1;
+  font-size: 5.6rem;
+  color: #00bde0;
+}
+.description .description-block-img {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+/* 3 экран*/
+.advantage {
+  background: url(../images/doctor.jpg) no-repeat center;
+}
+.advantage-content {
+  position: relative;
+  display: inline-block;
+  margin-top: 6rem;
+  width: 30rem;
+  height: 15.5rem;
+  border: 3px dotted #ffffff;
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.advantage-content:hover {
+  background-color: #f52358;
+  border: none;
+  box-shadow: 6px 8px 19px 0px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 6px 8px 19px 0px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 6px 8px 19px 0px rgba(0, 0, 0, 0.68);
+}
+.advantage-content:hover .advantage-content-main {
+  color: #ffffff;
+}
+.advantage-content:hover .advantage-content-circle {
+  background-color: #ffffff;
+  border: 5px solid #00d9e8;
+}
+.advantage-content-main {
+  display: inline-block;
+  font-family: 'Roboto_Slab', sans-serif;
+  margin: -1.5rem 0 -2rem;
+  font-size: 9rem;
+  font-weight: 700;
+  color: #f52358;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.advantage-content-text {
+  font-family: 'Open_Sans', sans-serif;
+  margin: 0;
+  line-height: 1;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.advantage-content-circle {
+  display: inline-block;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px dotted #ffffff;
+  background-color: #00dbe9;
+}
+.advantage-content-circle-img {
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.advantage-main {
+  display: inline-block;
+  font-family: 'Open_Sans', sans-serif;
+  line-height: 1.1;
+  font-size: 6rem;
+  color: #ffffff;
+  margin-top: 6.5rem;
+  margin-bottom: 6rem;
+}
